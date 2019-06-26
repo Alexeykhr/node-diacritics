@@ -12,3 +12,5 @@ assert.strictEqual(removeDiacritics("hŒllœ"), "hOElloe");
 assert.strictEqual(removeDiacritics("Fußball"), "Fussball");
 
 assert.strictEqual(removeDiacritics("ABCDEFGHIJKLMNOPQRSTUVWXYZé"), "ABCDEFGHIJKLMNOPQRSTUVWXYZe");
+
+assert.strictEqual(removeDiacritics("Ё ё"), "E e");
